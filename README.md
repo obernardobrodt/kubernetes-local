@@ -6,7 +6,16 @@ Para isso vamos utilizar como cluster o kind:
 https://kind.sigs.k8s.io/docs/user/quick-start#installation
 
 Kubernetes
+Nesse exemplo vou utilizar windows que é minha máquina atual de estudo mas vc pode instalar o necessário para linux:
 
+# Requeriments: 
+ - Kind
+ - Docker (Pode ser Utilizado Docker Desktop para subir o cluster ao inves do kind)
+ - Kubernetes
+ - Make
+
+
+# Install
 'winget install Kubernetes.kind'
 
 ![alt text](image.png)
@@ -15,7 +24,12 @@ Install kubectl
 ' winget install -e --id Kubernetes.kubectl '
 ![alt text](image-1.png)
 
+
 ## ------- ##
+
+# Iniciando o Kind:
+ 
+ ''
 
 
 Nesse contexto para termos algo plausivel precisamos ter. Uma api, algo para monitorar essa api simples com alguma saida.
